@@ -1,0 +1,83 @@
+[
+  {
+    "endpoint": "GET /api/wards",
+    "url": "http://127.0.0.1:8000/api/wards",
+    "cold_ms": 54.76329999510199,
+    "warm_ms": 31.26866665358345,
+    "raw_kb": 149.513671875,
+    "gzip_kb": 40.919921875,
+    "features": "66"
+  },
+  {
+    "endpoint": "GET /api/stats",
+    "url": "http://127.0.0.1:8000/api/stats",
+    "cold_ms": 2.329800045117736,
+    "warm_ms": 1.9034333139037092,
+    "raw_kb": 0.9560546875,
+    "gzip_kb": 0.3251953125,
+    "features": "66"
+  },
+  {
+    "endpoint": "GET /api/osm/stats",
+    "url": "http://127.0.0.1:8000/api/osm/stats",
+    "cold_ms": 3.895199974067509,
+    "warm_ms": 2.4372333815942206,
+    "raw_kb": 1.228515625,
+    "gzip_kb": 0.5166015625,
+    "features": "85845"
+  },
+  {
+    "endpoint": "GET /api/layers/boundary",
+    "url": "http://127.0.0.1:8000/api/layers/boundary",
+    "cold_ms": 54.267700063064694,
+    "warm_ms": 60.18286667919407,
+    "raw_kb": 138.30078125,
+    "gzip_kb": 28.1904296875,
+    "features": "1"
+  },
+  {
+    "endpoint": "GET /api/layers/roads (bbox)",
+    "url": "http://127.0.0.1:8000/api/layers/roads?bbox=73.76,18.60,73.84,18.68",
+    "cold_ms": 203.03630002308637,
+    "warm_ms": 169.3918666569516,
+    "raw_kb": 2660.138671875,
+    "gzip_kb": 306.470703125,
+    "features": "8000"
+  },
+  {
+    "endpoint": "GET /api/layers/buildings (bbox)",
+    "url": "http://127.0.0.1:8000/api/layers/buildings?bbox=73.76,18.60,73.84,18.68",
+    "cold_ms": 216.73870005179197,
+    "warm_ms": 188.56576671047756,
+    "raw_kb": 2416.0830078125,
+    "gzip_kb": 272.587890625,
+    "features": "8000"
+  },
+  {
+    "endpoint": "GET /api/layers/parks (bbox)",
+    "url": "http://127.0.0.1:8000/api/layers/parks?bbox=73.76,18.60,73.84,18.68",
+    "cold_ms": 9.497500024735928,
+    "warm_ms": 7.952933354924123,
+    "raw_kb": 62.8720703125,
+    "gzip_kb": 12.0146484375,
+    "features": "160"
+  },
+  {
+    "endpoint": "GET /api/wards/1",
+    "url": "http://127.0.0.1:8000/api/wards/1",
+    "cold_ms": 2.681699930690229,
+    "warm_ms": 2.77106665695707,
+    "raw_kb": 3.8759765625,
+    "gzip_kb": 1.3310546875,
+    "features": "1"
+  },
+  {
+    "endpoint": "GET /api/wards/1/osm",
+    "url": "http://127.0.0.1:8000/api/wards/1/osm",
+    "cold_ms": 2.8222999535501003,
+    "warm_ms": 2.26890000825127,
+    "raw_kb": 0.1484375,
+    "gzip_kb": 0.1337890625,
+    "features": "N/A"
+  }
+]

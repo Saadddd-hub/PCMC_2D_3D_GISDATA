@@ -1,0 +1,13 @@
+{
+  "name": "pcmc-2d-3d-gis",
+  "version": "1.0.0",
+  "description": "Monorepo web app for PCMC 2D/3D electoral ward boundary visualization",
+  "private": true,
+  "scripts": {
+    "dev:backend": "uvicorn app.main:app --reload --port 8000 --app-dir backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test:backend": "pytest backend/tests -v",
+    "build:frontend": "npm run build --prefix frontend",
+    "lint:frontend": "npm run lint --prefix frontend"
+  }
+}
